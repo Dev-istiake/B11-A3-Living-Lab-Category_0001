@@ -5028,9 +5028,6 @@
   .mb-6 {
     margin-bottom: calc(var(--spacing) * 6);
   }
-  .ml-0 {
-    margin-left: calc(var(--spacing) * 0);
-  }
   .ml-0\.5 {
     margin-left: calc(var(--spacing) * 0.5);
   }
@@ -5726,9 +5723,6 @@
   .min-h-\[405px\] {
     min-height: 405px;
   }
-  .min-h-\[420px\] {
-    min-height: 420px;
-  }
   .min-h-\[495px\] {
     min-height: 495px;
   }
@@ -5837,20 +5831,11 @@
       width: calc(0.25rem * 4);
     }
   }
-  .w-1 {
-    width: calc(var(--spacing) * 1);
-  }
   .w-1\/2 {
     width: calc(1/2 * 100%);
   }
   .w-4 {
     width: calc(var(--spacing) * 4);
-  }
-  .w-\[38\%\] {
-    width: 38%;
-  }
-  .w-\[45\%\] {
-    width: 45%;
   }
   .w-\[50\%\] {
     width: 50%;
@@ -7521,9 +7506,6 @@
     font-size: 0.625rem;
     padding-inline: calc(0.25rem * 2 - var(--border));
   }
-  .px-0 {
-    padding-inline: calc(var(--spacing) * 0);
-  }
   .px-0\.5 {
     padding-inline: calc(var(--spacing) * 0.5);
   }
@@ -7550,9 +7532,6 @@
   }
   .px-20 {
     padding-inline: calc(var(--spacing) * 20);
-  }
-  .py-0 {
-    padding-block: calc(var(--spacing) * 0);
   }
   .py-0\.5 {
     padding-block: calc(var(--spacing) * 0.5);
@@ -9454,11 +9433,6 @@
       width: 38%;
     }
   }
-  .md\:w-\[40\%\] {
-    @media (width >= 48rem) {
-      width: 40%;
-    }
-  }
   .md\:w-\[56\%\] {
     @media (width >= 48rem) {
       width: 56%;
@@ -9519,24 +9493,9 @@
       padding-inline: calc(var(--spacing) * 4);
     }
   }
-  .md\:px-12 {
-    @media (width >= 48rem) {
-      padding-inline: calc(var(--spacing) * 12);
-    }
-  }
-  .md\:px-14 {
-    @media (width >= 48rem) {
-      padding-inline: calc(var(--spacing) * 14);
-    }
-  }
   .md\:px-16 {
     @media (width >= 48rem) {
       padding-inline: calc(var(--spacing) * 16);
-    }
-  }
-  .md\:px-20 {
-    @media (width >= 48rem) {
-      padding-inline: calc(var(--spacing) * 20);
     }
   }
   .md\:py-8 {
@@ -9824,9 +9783,9 @@
       min-height: 840px;
     }
   }
-  .\32 xl\:w-\[50\%\] {
+  .\32 xl\:w-\[48\%\] {
     @media (width >= 96rem) {
-      width: 50%;
+      width: 48%;
     }
   }
 }
