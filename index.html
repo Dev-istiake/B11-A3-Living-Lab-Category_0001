@@ -46,7 +46,7 @@
                <!-- nav menu -->
                <div class="navbar-center hidden lg:flex">
                   <ul
-                     class="menu menu-horizontal px-1 text-xl font-normal gap-8"
+                     class="menu menu-horizontal px-1 lg:text-base xl:text-xl font-normal gap-8"
                   >
                      <li><a>Find a pet</a></li>
                      <li><a>Breeds</a></li>
@@ -62,10 +62,11 @@
                   <i class="fa-sharp fa-light fa-bell text-xl"></i>
                   <i class="fa-light fa-magnifying-glass text-xl"></i>
                   <a
-                     class="btn text-xl font-normal rounded-lg border-yellow-300 bg-transparent"
+                     class="btn text-lg xl:text-xl font-normal rounded-lg border-yellow-300 bg-transparent"
                      >Login</a
                   >
-                  <a class="btn text-xl font-normal rounded-lg bg-yellow-300"
+                  <a
+                     class="btn text-lg xl:text-xl font-normal rounded-lg bg-yellow-300"
                      >Register</a
                   >
                </div>
@@ -90,7 +91,9 @@
                   make tails wag with joy!
                </p>
                <div id="hero-btn" class="px-0.5 py-0.5">
-                  <button class="px-9 py-3 rounded-lg bg-yellow-300 text-lg">
+                  <button
+                     class="px-6 md:px-9 py-1.5 md:py-3 rounded-lg bg-yellow-300 text-base md:text-lg"
+                  >
                      Find a pet
                   </button>
                </div>
@@ -198,23 +201,29 @@
                <div
                   class="grid grid-cols-1 lg:grid-cols-[40%_auto] xl:grid-cols-[32%_auto] gap-4"
                >
+                  <!-- Big card -->
                   <div
-                     class="relative min-h-[405px] sm:min-h-[420px] rounded-xl bg-[#F9DF8A]"
+                     class="relative min-h-[340px] sm:min-h-[420px] rounded-xl bg-[#F9DF8A]"
                   >
                      <div class="px-10 sm:px-14 md:px-16 lg:px-8">
-                        <h1 class="mt-14 mb-6 text-3xl adlam-display">
+                        <h1
+                           class="mt-10 sm:mt-14 mb-3 md:mb-6 text-2xl md:text-3xl adlam-display"
+                        >
                            T- Shirt For Dogs
                         </h1>
-                        <p class="mb-6 text-sm text-gray-600">
+                        <p class="mb-4 sm:mb-6 text-sm text-gray-600">
                            Discover a world of treats, toys, and
-                           <br />essentials handpicked for
+                           <br class="hidden sm:block" />essentials handpicked
+                           for
                         </p>
-                        <button class="btn px-8 py-3 text-lg rounded-lg">
+                        <button
+                           class="btn px-5 md:px-8 py-1.5 md:py-3 text-sm md:text-lg rounded-lg"
+                        >
                            Shop Now
                         </button>
                      </div>
                      <div
-                        class="sm:w-[42%] md:w-[38%] lg:w-[58%] 2xl:w-[48%] absolute bottom-0 right-0"
+                        class="w-[197px] sm:w-[42%] md:w-[38%] lg:w-[57%] 2xl:w-[48%] absolute bottom-0 right-0"
                      >
                         <img
                            class="w-full"
@@ -223,7 +232,11 @@
                         />
                      </div>
                   </div>
-                  <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+                  <!-- Small card -->
+                  <div
+                     class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-2 xl:grid-cols-3 gap-4"
+                  >
+                     <!-- card 01 -->
                      <div
                         class="flex px-4 py-4 bg-white rounded-lg gap-4 border border-gray-200"
                      >
@@ -239,6 +252,7 @@
                            <p class="text-sm">$39.99</p>
                         </div>
                      </div>
+                     <!-- card o2 -->
                      <div
                         class="flex px-4 py-4 bg-white rounded-lg gap-4 border border-gray-200"
                      >
@@ -254,6 +268,7 @@
                            <p class="text-sm">$39.99</p>
                         </div>
                      </div>
+                     <!-- card o3 -->
                      <div
                         class="flex px-4 py-4 bg-white rounded-lg gap-4 border border-gray-200"
                      >
@@ -269,6 +284,7 @@
                            <p class="text-sm">$39.99</p>
                         </div>
                      </div>
+                     <!-- card o4 -->
                      <div
                         class="flex px-4 py-4 bg-white rounded-lg gap-4 border border-gray-200"
                      >
@@ -284,6 +300,7 @@
                            <p class="text-sm">$39.99</p>
                         </div>
                      </div>
+                     <!-- card o5 -->
                      <div
                         class="flex px-4 py-4 bg-white rounded-lg gap-4 border border-gray-200"
                      >
@@ -299,6 +316,7 @@
                            <p class="text-sm">$39.99</p>
                         </div>
                      </div>
+                     <!-- card o6 -->
                      <div
                         class="flex px-4 py-4 bg-white rounded-lg gap-4 border border-gray-200"
                      >
@@ -314,8 +332,9 @@
                            <p class="text-sm">$39.99</p>
                         </div>
                      </div>
+                     <!-- card o7 -->
                      <div
-                        class="flex px-4 py-4 bg-white rounded-lg gap-4 border border-gray-200"
+                        class="flex lg:hidden xl:flex px-4 py-4 bg-white rounded-lg gap-4 border border-gray-200"
                      >
                         <div class="bg-[#FFF9F4] px-4 py-4 rounded-lg">
                            <img src="assets/fish-cartoon.png" alt="" />
@@ -329,8 +348,9 @@
                            <p class="text-sm">$39.99</p>
                         </div>
                      </div>
+                     <!-- card o8 -->
                      <div
-                        class="flex px-4 py-4 bg-white rounded-lg gap-4 border border-gray-200"
+                        class="flex lg:hidden xl:flex px-4 py-4 bg-white rounded-lg gap-4 border border-gray-200"
                      >
                         <div class="bg-[#FFF9F4] px-4 py-4 rounded-lg">
                            <img src="assets/pet-couch.png" alt="" />
@@ -344,8 +364,9 @@
                            <p class="text-sm">$39.99</p>
                         </div>
                      </div>
+                     <!-- card o9 -->
                      <div
-                        class="hidden md:flex px-4 py-4 bg-white rounded-lg gap-4 border border-gray-200"
+                        class="hidden md:flex lg:hidden xl:flex px-4 py-4 bg-white rounded-lg gap-4 border border-gray-200"
                      >
                         <div class="bg-[#FFF9F4] px-4 py-4 rounded-lg">
                            <img src="assets/rabbit-cartoon.png" alt="" />
@@ -554,7 +575,9 @@
                            $7.99
                         </h1>
                      </div>
-                     <div class="w-[50%] sm:w-[45%] absolute bottom-0 right-0">
+                     <div
+                        class="w-60 sm:w-3xs md:w-56 lg:w-72 xl:w-[22rem] 2xl:w-[26rem] absolute bottom-0 right-0"
+                     >
                         <img
                            src="assets/cute-dog-mid.png"
                            alt=""
@@ -579,7 +602,7 @@
                         </h4>
                      </div>
                      <div
-                        class="w-[50%] sm:w-[40%] md:w-[56%] absolute bottom-0 right-0"
+                        class="w-56 sm:w-3xs md:w-40 lg:w-56 xl:w-3xs 2xl:w-[21rem] absolute bottom-0 right-0"
                      >
                         <img
                            class="w-full"
@@ -601,10 +624,14 @@
          >
             <!-- Footer card -->
             <div
-               class="py-10 px-20 grid grid-cols-1 md:grid-cols-[25%_auto] place-items-center md:place-items-start gap-5 md:gap-28 bg-[#FFF9F4] rounded-2xl absolute w-full top-0 left-0 translate-y-[-50%]"
+               class="py-10 px-8 md:px-20 grid grid-cols-1 md:grid-cols-[30%_auto] lg:grid-cols-[25%_auto] place-items-center md:place-items-start md:items-center gap-5 md:gap-14 lg:gap-28 bg-[#FFF9F4] rounded-2xl absolute w-full top-0 left-0 translate-y-[-50%]"
             >
-               <div class="w-[60%] md:w-full">
-                  <img class="w-full" src="assets/cute-pet-mid.png" alt="" />
+               <div class="flex items-center">
+                  <img
+                     class="w-56 md:w-full"
+                     src="assets/cute-pet-mid.png"
+                     alt=""
+                  />
                </div>
                <div
                   class="flex flex-col items-center md:items-start justify-center"
@@ -612,7 +639,9 @@
                   <h1 class="text-3xl lg:text-4xl adlam-display mb-5">
                      Get awesome News!
                   </h1>
-                  <p class="text-center text-sm lg:text-xl mb-5 lg:mb-9">
+                  <p
+                     class="text-center md:text-start text-sm lg:text-xl mb-5 lg:mb-9"
+                  >
                      Exclusive training tips, ticks, product deals and more.
                   </p>
                   <label
